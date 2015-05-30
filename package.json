@@ -1,0 +1,26 @@
+{
+  "name": "firebase-tokenize",
+  "version": "1.0.0",
+  "description": "Easily generate Firebase tokens from the command line.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "firebase",
+    "token"
+  ],
+  "bin": {
+    "firebase-tokenize": "./index.js"
+  },
+  "author": "Abraham Haskins <abeisgreat@abeisgreat.com>",
+  "license": "MIT",
+  "dependencies": {
+    "es6-promise": "^2.1.1",
+    "firebase": "^2.2.5",
+    "firebase-login": "^1.0.0",
+    "firebase-token-generator": "^2.0.0",
+    "minimist": "^1.1.1",
+    "request": "^2.56.0"
+  }
+}
