@@ -3,6 +3,10 @@ firebase-tokenize
 
 Easily generate Firebase tokens from the command-line!
 
+*Note: By default firebase-tokenize uses your stored Firebase credentials
+from [firebase-tools](https://github.com/firebase/firebase-tools) so you
+will not normally need to supply email/password*
+
 Installation
 ------------
 
