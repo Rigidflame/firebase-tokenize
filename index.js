@@ -104,7 +104,7 @@ function getSecrets(token) {
 
 function getToken(secrets) {
   return new Promise(function (resolve, reject) {
-    var secretIndex = parseInt(argv.s || argv.secret || Math.random()*secrets.length, 10),
+    var secretIndex = parseInt(argv.s || argv['secret-index'] || Math.random()*secrets.length, 10),
         expires = parseInt(argv.expires, 10),
         notBefore = parseInt(argv['not-before'], 10)
         options = {
